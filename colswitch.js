@@ -2,7 +2,7 @@
 document.querySelector(".red").addEventListener("click", function () {
   document.querySelector(".message").textContent = "Your Red!";
   //the gap between section color and whole body???
-  document.querySelector(".message").style.backgroundColor = "red";
+  // document.querySelector(".message").style.backgroundColor = "red";
   //move the button:when we choose red
   document.querySelector(".red").style.width = "100%";
   document.querySelector(".red").style.backgroundColor = "rgba(0, 0, 0, 1)";
@@ -19,7 +19,7 @@ document.querySelector(".red").addEventListener("click", function () {
 document.querySelector(".blue").addEventListener("click", function () {
   document.querySelector(".message").textContent = "Your Blue!";
   //the gap between section color and whole body???
-  document.querySelector(".message").style.backgroundColor = "blue";
+  // document.querySelector(".message").style.backgroundColor = "blue";
   //move the button:when we choose blue
   document.querySelector(".blue").style.width = "100%";
   document.querySelector(".blue").style.backgroundColor = "rgba(0, 0, 0, 1)";
